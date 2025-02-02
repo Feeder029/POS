@@ -44,12 +44,12 @@ html{
 .bot-nav{
     position: relative;
     width: 9in;
-    margin-top: 30px;    
+    margin-top: 0px;    
     display: inline-block;
 }
 
 .bot-nav h3{
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 10px;
 }
 

@@ -14,11 +14,11 @@ html{
     box-sizing: border-box;
 }
 
-ul{
+.side-panel ul{
     height: 700px;
 }
 
-a{
+.side-panel a{
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -28,16 +28,16 @@ a{
     padding: 5px;
 }
 
-i{
+.side-panel i{
     color: aliceblue;
 }
 
-li:hover a, li:hover i {
+.side-panel li:hover a, li:hover i {
     color: #2d2e29;
 }
 
 
-li{
+.side-panel li{
     list-style:none;
     margin-top: 5px;
     padding-left: 15px;
@@ -46,7 +46,7 @@ li{
     margin: 10px 20px;
 }
 
-li:hover{
+.side-panel li:hover{
     border: 1px solid white;
     background-color: white;
     border-radius: 15px;
@@ -143,4 +143,35 @@ li:hover{
     border-radius: 30px;
     z-index: 120;
     position: relative;
+    padding: 20px;
+    color: white;
+}
+.cart-container {
+    margin-top: 20px;
+    padding: 10px;
+    background: #3a3b37;
+    border-radius: 15px;
+}
+.cart-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+.bot-float {
+
+    text-align: center;
+}
+.bot-float button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#clear-order {
+    background-color: red;
+    color: white;
+}
+#confirm-order {
+    background-color: green;
+    color: white;
 }
